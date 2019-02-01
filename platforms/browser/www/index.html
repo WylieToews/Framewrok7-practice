@@ -1,12 +1,78 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
-        <title>Framework7 Practice</title>
-    </head>
-    <body>
-        <script type="text/javascript" src="cordova.js"></script>
-        <h1>Hello</h1>
-    </body>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title>Framework7 Practice</title>
+    <!--FRAMEWORK 7 STYLESHEET-->
+    <link rel="stylesheet" href="css/framework7.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div id="app">
+
+        <div class="panel panel-left panel-cover">
+<!--            ... panel content goes here ...-->
+            <div class="list links-list">
+                <ul>
+                    <li>
+                        <a href="#">Link Item 1</a>
+                    </li>
+                    <li>
+                        <a href="#">Link Item 2</a>
+                    </li>
+                    <li>
+                        <a href="#">Link Item 3</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="view view-main">
+
+            <div class="page" data-name="home">
+
+                <div class="navbar">
+                    <div class="navbar-inner">
+                        <div class="left"><a href="#" class="panel-open">Left</a></div>
+                        <div class="title">Page Title</div>
+                        <div class="right">Right</div>
+                    </div>
+                </div>
+                <div class="page">
+                    <div class="navbar">
+                        ...
+                    </div>
+                    <div class="toolbar toolbar-bottom-md">
+                        <div class="toolbar-inner">
+
+
+                            <a class="link">Link 1</a>
+                            <a class="link">Link 2</a>
+                            <a class="link" href="/page2/">Link 3</a>
+                        </div>
+                    </div>
+                    <!-- Additional "hide-toolbar-on-scroll" class to hide toolbar on scroll automatically -->
+                    <div class="page-content hide-toolbar-on-scroll">
+                        <div class="big-content">
+                            <p>Quis omnis, quam maiores voluptates vero atque porro? Soluta modi dolore eum dolor iste eos perspiciatis vero porro aliquam officia deleniti, cumque rem, consequatur, ea ipsa temporibus dicta architecto saepe.</p>
+                            <p>Tempora eius, sit distinctio architecto repellat, rerum quae, eum suscipit aperiam libero beatae ut eveniet ex labore illo! Labore illo harum voluptatum nulla ullam natus beatae iste tempora ut fugiat!</p>
+                            ...
+                        </div>
+                    </div>
+                </div>
+
+
+            </div> <!-- END MAIN VIEW -->
+        </div> <!-- END MAIN VIEW -->
+    </div> <!-- END APP -->
+
+    <script type="text/javascript" src="cordova.js"></script>
+    <!--FRAMEWORK 7 JS-->
+    <script src="js/framework7.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <h1>Hello</h1>
+</body>
 </html>
